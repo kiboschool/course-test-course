@@ -1,0 +1,96 @@
+name: Test Course
+code: TEST100
+term: Apr-2024
+about_path: src/front-matter/course-overview.md
+units:
+  - name: Course Overview
+    activities:
+      - name: Introduction
+        path: src/front-matter/course-overview.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2024-01-01
+      - name: Live Classes
+        path: src/front-matter/live-classes.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2024-01-01
+      - name: Assessments
+        path: src/front-matter/assessments.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2024-01-01
+      - name: Getting Help
+        path: src/front-matter/getting-help.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2024-01-01
+      - name: Giving Help
+        path: src/front-matter/giving-help.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2024-01-01
+      - name: Academic Integrity
+        path: src/front-matter/academic-integrity.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2024-01-01
+      - name: Course Tools
+        path: src/front-matter/course-tools.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: 2024-01-01
+  - name: 'Week 1: Topic'
+    activities:
+      - name: Introduction
+        path: src/lessons/week-1.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-01
+      - name: Example Lesson
+        path: src/lessons/week-1/example.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-01
+      - name: Assignment
+        path: src/lessons/week-1/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        publish: 2024-01-01
+        due: 2024-12-31
+        grade_weight: 50
+  - name: 'Week 2: Topic 2'
+    blocking_assignment: Assignment
+    activities:
+      - name: Week2 Introduction
+        path: src/lessons/week-1.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-01
+      - name: First Principles
+        path: src/lessons/week-1/example.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: 2024-01-01
+      - name: Assignment 2
+        path: src/lessons/week-1/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        publish: 2024-01-01
+        due: 2024-12-31
+        grade_weight: 50
+  
+  
